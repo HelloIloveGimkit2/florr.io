@@ -102,7 +102,7 @@ Here are some of the awesome userscripts you'll find in this repository:
 - **Craft Progress**: Allows you to input a petal goal and tracks it for you. (Made by Furaken) *WGB*
 - **Guild Script**: Creates a simple script to show guild updates. *WGB*
 - **Shaders**: Add realistic shadows to the game! (Fixed by me, original by Jekyll) *WGB*
-- **Anti-AFK**: Navigate to the file directory with `cd mini-scripts/python-anti-afk`, then run `pip install -r requirements.txt` in your terminal, then run the python script `anti-afk.py`. (Bingo[...]
+- **Anti-AFK**: Navigate to the file directory with `cd scripts/python-anti-afk`, then run `pip install -r requirements.txt` in your terminal, then run the python script `anti-afk.py`. (Bingo[...]
 - **Free Sandbox**: Script by k2r_n2iq, uses memory editing to simulate every petal in your inventory. For this script, you paste it in the console, not with tampermonkey.
 - **Account Creator**: Script by Bloss, generates a new guest UUID and edits your localstorage to that ID, giving you a new account. *WGB If used correctly*
 - **Version Hash Finder**: Finds your version hash to replace with the old one if super-petals.js doesn't work. If you don't know how to do this, ping me on Discord and I'll update the script so [...]
