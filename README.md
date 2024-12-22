@@ -36,33 +36,9 @@ This repository was made on 10/29/2024 but I wrote a lot of the code months ago.
 5. [Support](-#support)
 6. [Contact](-#contact)
 
-## 🚧 Build Instructions
-
-If you don't have the prerequisites, do this:
-1. Create a new GitHub account.
-2. Star this repository. This is important as it enables the next step.
-3. After you have starred the repository, click the + symbol.
-4. Navigate to "Create a new Codespace".
-5. Type in `kit2d2alt/florr.io` as the repository.
-
-### Then follow the steps below!
-
-1. Open your terminal and navigate to the `chinese-anthos` folder:
-    ```bash
-    cd florrclones/chinese-anthos
-    npm install
-    npm run dev
-    ```
-2. Then open the (forwarded) port!
-
-### *✨ Terminal Tips!*
-- When running commands in a terminal, run them one at a time. Each new line is a new command.
-- When running commands in a terminal, don't use a slash prefix. It's not MineCraft, you little kids.
-- Use `ctrl` + `shift` + ` to open your terminal like a pro! (Then join the Discord and buy my coding courses to become a real pro.)
-
 ## 🚀 Getting Started
 
-Some of these scripts use Tampermonkey, so you'll need to install it.
+Some of these scripts use Tampermonkey, so you'll need to install it. (Mainly the hacks use it).
 
 ### 1. Install Tampermonkey
 
