@@ -56,7 +56,7 @@
         loadingMessage.style.display = 'block';
         GM_xmlhttpRequest({
             method: 'GET',
-            url: 'https://zcxjames.top/data.json',
+            url: 'https://zcxjames.top/wave.json',
             onload: function(response) {
                 const data = JSON.parse(response.responseText);
                 displayData(data);
