@@ -1,7 +1,7 @@
-# Scripts!
-Scripts for a bunch of random io games.
-### Go [here](smaller-games) for smaller io games. 
-<br> Larger games are located in the `scripts` directory.
+# Scripts! 💻
+To be more specific, scripts for a bunch of random io games. (That wasn't very specific)
+### Go [here](smaller-games) for smaller io game scripts.
+<br> Larger games are located right here in the `scripts` directory.
 
 All scripts are credited if not made by me
 <br> (A lot are made by me though)
