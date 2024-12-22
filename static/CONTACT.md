@@ -1,0 +1,13 @@
+# Contact
+- Find me on [Twitter (X)](https://x.com/kit2d2)
+- Find me on [Reddit](https://reddit.com/u/kit2d2)
+- Find me on [Github](https://github.com/cat2d2)
+- Find me on [YouTube](https://youtube.com/@kit2d2)
+- Find me on [LinkedIn]()
+- Find me on [Stack Overflow](https://stackoverflow.com/users/22882511/kit2d2)
+- Find me on [Medium](https://medium.com/@kit2d2)
+- Find me on [Discord](https://discord.gg/m4DefhCemY)
+- Find me on [Email](mailto:cat@fatherless.dad)
+- Find me on [Gitlab](https://gitlab.com/cat2d2)
+- Text me via `+1 201-468-0193`
+- Find me [IRL](https://nice-try)
