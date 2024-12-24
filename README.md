@@ -40,12 +40,12 @@ Welcome to <code>cat2d2/io</code> <img src="static/images/diep.png" width="20" h
   What it is and how to use it.
 </h6>
 
-1. [Getting Started](##getting-started) | How to install TamperMonkey
-2. [Available Userscripts](###Add-Userscripts)
-3. [Tutorials](###tutorials-how-to-operate)
-4. [Contributing](##contributing)
-5. [Support](##support)
-6. [Contact](##contact)
+1. [Getting Started](#getting-started) | How to install TamperMonkey
+2. [Available Userscripts](#Add-Userscripts)
+3. [Tutorials](#tutorials-how-to-operate)
+4. [Contributing](#contributing)
+5. [Support](#support)
+6. [Contact](#contact)
 
 ## 🚀 Getting Started
 
