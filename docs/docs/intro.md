@@ -17,7 +17,7 @@ Welcome to the official documentation for <a href="https://github.com/cat2d2/io"
 
 ## Create a new script
 
-You can start off by going to the [Tampermonkey Dashboard](chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/options.html#url=aHR0cDovL2xvY2FsaG9zdDozMDAwL2RvY3MvaW50cm8=&nav=dashboard)
+You can start off by going to the Tampermonkey Dashboard. Click on the extension, then click "Dashboard".
 
 <details>
   <summary>It should look a little something like this</summary>
