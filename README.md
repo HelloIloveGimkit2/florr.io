@@ -19,7 +19,7 @@ Welcome to <code>cat2d2/io</code> <img src="static/images/diep.png" width="20" h
   <span class="p"><p><u>Any</u> forks of this repository must be open-sourced. Distributing versions of the intellectual property on this repository without being fully open-sourced is illegal. See the <a href="LICENSE" class="smooth-link">License</a> for more detail.</p> </span>
   <h4>Introducing Premium!</h4>
   <span class="p"><p>Get private and improved userscripts you never even new existed!</p></span>
-  <span class="p"><p>Join the <a href="https://discord.gg/m4DefhCemY" class="discord-link" target="_blank">Discord</a>for more info.</p></span>
+  <span class="p"><p>Join the <a href="https://discord.gg/m4DefhCemY" class="discord-link" target="_blank">Discord</a> for more info.</p></span>
 </div>
 
 ![View Counter](https://camo.githubusercontent.com/f03feb3e8cbc0217942e338627aeb8d5e71aea31334dadf661fea11ce0c85820/68747470733a2f2f686974732e736565796f756661726d2e636f6d2f6170692f636f756e742f696e63722f62616467652e7376673f75726c3d68747470733a2f2f6769746875622e636f6d2f6361743264322f666c6f72722e696f267469746c653d7669657773)
@@ -40,12 +40,12 @@ Welcome to <code>cat2d2/io</code> <img src="static/images/diep.png" width="20" h
   What it is and how to use it.
 </h6>
 
-1. [Getting Started](-#getting-started) | How to install TamperMonkey
-2. [Available Userscripts](-#available-userscripts)
-3. [Tutorials](-#tutorials-how-to-operate)
-4. [Contributing](-#contributing)
-5. [Support](-#support)
-6. [Contact](-#contact)
+1. [Getting Started](#-getting-started) | How to install TamperMonkey
+2. [Available Userscripts](#2-add-userscripts)
+3. [Tutorials](#tutorials-on-how-to-operate)
+4. [Contributing](#-contributing)
+5. [Support](#-support)
+6. [Contact](#-contact)
 
 ## 🚀 Getting Started
 
