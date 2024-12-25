@@ -22,7 +22,7 @@ Welcome to <code>cat2d2/io</code> <img src="static/images/diep.png" width="20" h
   <span class="p"><p>Join the <a href="https://discord.gg/m4DefhCemY" class="discord-link" target="_blank">Discord</a> for more info.</p></span>
 </div>
 
-![View Counter](https://camo.githubusercontent.com/f03feb3e8cbc0217942e338627aeb8d5e71aea31334dadf661fea11ce0c85820/68747470733a2f2f686974732e736565796f756661726d2e636f6d2f6170692f636f756e742f696e63722f62616467652e7376673f75726c3d68747470733a2f2f6769746875622e636f6d2f6361743264322f666c6f72722e696f267469746c653d7669657773)
+![View Counter](https://camo.githubusercontent.com/f03feb3e8cbc0217942e338627aeb8d5e71aea31334dadf661fea11ce0c85820/68747470733a2f2f686974732e736565796f756661726d2e636f6d2f6170692f636f756e742f696e63722f62616467652e7376673f75726c3d68747470733a2f2f6769746875622e636f6d2f6361743264322f666c6f72722e696f267469746c653d7669657773) 
 
 <h6 style="margin: 0; padding: 0; transform: rotate(-.5deg);">
   I am not responsible for any damage that you may do on others or upon yourself. 
