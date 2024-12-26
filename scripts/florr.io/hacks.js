@@ -6,7 +6,7 @@
 // @author       m28 (so real)
 // @match        https://florr.io/*
 // @icon         data:image/gif;base64,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
-// @grant        unsafeWindow
+// @grant        none
 // @run-at       document-start
 // @require      https://unpkg.com/string-similarity@4.0.4/umd/string-similarity.min.js
 // @license      AGPL
@@ -17,32 +17,28 @@ https://github.com/cat2d2/florr.io
 ⚠️ Best paired with ui.js (warning emoji just to catch your attention, script will work without)
 */
 
+// THis is the part you can change
 (function() {
   'use strict';
   const client = {
     autoRespawn: {
-      enabled: 1,
+      enabled: 0,
       spawnBiome: 'Garden'
     },
     bypassAfkCheck: {
-      movementCheck: 1,
-      afkButton: 1,
+      movementCheck: 0,
+      afkButton: 0,
     },
     autoGrind: {
-     enabled: 1,
+     enabled: 0,
     },
-    tracers: 1,
+    tracers: 0,
   }
-
-unsafeWindow.client = client; // for ui
-
+// ^^ This is the part you can change
   let respawnState = 0
   let lastCheck = 0
   const _console = {
     _log: window.console.log,
-    log: function() {
-      this._log(`%c[https://github.com/cat2d2/florr.io]`, `color: rgb(25, 156, 35); background: rgb(200, 255, 200)`, ...arguments)
-    }
   }
   const multiply = function(t,l){let e=t.length,n=t[0].length,$=l[0].length,r=Array(e);for(let f=0;f<e;++f){let o=Array($);r[f]=o;let g=t[f];for(let h=0;h<$;++h){let u=0;for(let i=0;i<n;++i)u+=g[i]*l[i][h];o[h]=u}}return r}
 
@@ -55,7 +51,7 @@ unsafeWindow.client = client; // for ui
     if(!tracers[color]) { tracers[color] = [] }
     tracers[color].push(t)
   }, mobs = []
-  const parseColor = function(str) { // converter
+  const parseColor = function(str) {//converter
     return [parseInt(str[1] + str[2], 16), parseInt(str[3] + str[4], 16), parseInt(str[5] + str[6], 16)]
   }
   let mouse = {
@@ -490,9 +486,215 @@ unsafeWindow.client = client; // for ui
   window.addEventListener = new Proxy(window.addEventListener, { apply:listenerApply })
   document.addEventListener = new Proxy(document.addEventListener, { apply:listenerApply })
   localStorage.florrio_tutorial = 'complete'
-  if (client.autoGrind.enabled === 1) {
-    localStorage.florrio_keyboard_control = 'N';
-  }
 })();
 
+var obj =
+    {
+        rarity: 0,
+        id: 1,
+        aim: 5,
+        basicId: 605463,
+        find: {
+            petal: "Basic",
+            value: [5, 0, 0, 0, 0, 0, 0, 0]
+        },
+        config: {
+            top: false,
+            left: false,
+            x: "-20px",
+            y: "-20px",
+            scale: 1,
+            key: "Equal"
+        },
+        version: "1.2",
+        versionHash: versionHash,
+        autoFind: true,
+        multipleCounting: {
+            enable: false,
+            petal: {
+                "Common Basic": 5,
+                "Common Light": 5
+            },
+            key: "Minus"
+        }
+    },
+    petal = "Common Basic",
+    rarityArr = [
+        "Common",
+        "Unusual",
+        "Rare",
+        "Epic",
+        "Legendary",
+        "Mythic",
+        "Ultra",
+        "Super"
+    ],
+    rarityColors = [
+        "#7EEF6D",
+        "#FFE65D",
+        "#4D52E3",
+        "#861FDE",
+        "#DE1F1F",
+        "#1FDBDE",
+        "#FF2B75",
+        "#2BFFA3",
+    ],
+    petalArr = [
+        "Basic",
+        "Light",
+        "Rock",
+        "Square",
+        "Rose",
+        "Stinger",
+        "Iris",
+        "Wing",
+        "Missile",
+        "Grapes",
+        "Cactus",
+        "Faster",
+        "Bubble",
+        "Pollen",
+        "Dandelion",
+        "Beetle Egg",
+        "Antennae",
+        "Heavy",
+        "Yin Yang",
+        "Web",
+        "Honey",
+        "Leaf",
+        "Salt",
+        "Rice",
+        "Corn",
+        "Sand",
+        "Pincer",
+        "Yucca",
+        "Magnet",
+        "Yggdrasil",
+        "Starfish",
+        "Pearl",
+        "Lightning",
+        "Jelly",
+        "Claw",
+        "Shell",
+        "Cutter",
+        "Dahlia",
+        "Uranium",
+        "Sponge",
+        "Soil",
+        "Fangs",
+        "Third Eye",
+        "Peas",
+        "Stick",
+        "Clover",
+        "Powder",
+        "Air",
+        "Basil",
+        "Orange",
+        "Ant Egg",
+        "Poo",
+        "Relic",
+        "Lotus",
+        "Bulb",
+        "Cotton",
+        "Carrot",
+        "Bone",
+        "Plank",
+        "Tomato",
+        "Mark",
+        "Rubber",
+        "Blood Stinger",
+        "Bur",
+        "Root",
+        "Ankh",
+        "Dice",
+        "Talisman",
+        "Battery",
+        "Amulet",
+        "Compass",
+        "Disc",
+        "Shovel",
+        "Coin",
+        "Chip",
+        "Card",
+        "Moon",
+        "Privet",
+        "Glass"
+    ]
+
+function getNewPetal(petalName) {
+    var tempObj = {
+        id : 1,
+        rarity: 0,
+        petal: ""
+    }
+    if (petalName.split(" ").length <= 0) return
+    if (petalName.split(" ").length == 1) {
+        if (petalName.startsWith("un")) tempObj.rarity = "Unusual"
+        else if (petalName.startsWith("r")) tempObj.rarity = "Rare"
+        else if (petalName.startsWith("e")) tempObj.rarity = "Epic"
+        else if (petalName.startsWith("l")) tempObj.rarity = "Legendary"
+        else if (petalName.startsWith("m")) tempObj.rarity = "Mythic"
+        else if (petalName.startsWith("u")) tempObj.rarity = "Ultra"
+        else if (petalName.startsWith("s")) tempObj.rarity = "Super"
+        else tempObj.rarity = "Common"
+        tempObj.id = stringSimilarity.findBestMatch(petalName.slice(1), petalArr)
+        petalName = tempObj.rarity + " " + tempObj.id.bestMatch.target
+        tempObj.rarity = rarityArr.indexOf(tempObj.rarity)
+    } else {
+        tempObj.rarity = stringSimilarity.findBestMatch(petalName.split(" ").shift(), rarityArr)
+        tempObj.id = stringSimilarity.findBestMatch(petalName.split(" ").splice(1).join(" "), petalArr)
+        petalName = tempObj.rarity.bestMatch.target + " " + tempObj.id.bestMatch.target
+        tempObj.rarity = tempObj.rarity.bestMatchIndex
+    }
+    tempObj.id = tempObj.id.bestMatchIndex + 1
+    tempObj.petal = petalName
+    return tempObj
+}
+var thisNewPetal = getNewPetal(petal)
+obj.id = thisNewPetal.id
+obj.rarity = thisNewPetal.rarity
+petal = thisNewPetal.petal
+
+function findSequence(seq, mem) {
+    let match = 0
+    for (let addr = 0; addr < mem.length; addr++) {
+        if (mem[addr] === seq[match]) match++
+        else if (mem[addr] === seq[0]) match = 1
+        else match = 0
+        if (match === seq.length) return addr - match + 1
+    }
+}
+
+// https://stackoverflow.com/questions/47011055/smooth-vertical-scrolling-on-mouse-wheel-in-vanilla-javascript
+function SmoothScroll(target, speed, smooth) {
+    if (target === document) target = (document.scrollingElement || document.documentElement || document.body.parentNode || document.body)
+    var moving = false
+    var pos = target.scrollTop
+    var frame = target === document.body && document.documentElement ? document.documentElement : target
+    target.addEventListener('mousewheel', scrolled, { passive: false })
+    target.addEventListener('DOMMouseScroll', scrolled, { passive: false })
+    function scrolled(e) {
+        e.preventDefault()
+        var delta = normalizeWheelDelta(e)
+        pos += -delta * speed
+        pos = Math.max(0, Math.min(pos, target.scrollHeight - frame.clientHeight))
+        if (!moving) update()
+    }
+    function normalizeWheelDelta(e) {
+        if(e.detail) {
+            if(e.wheelDelta) return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1)
+            else return -e.detail / 3
+        } else return e.wheelDelta / 120
+    }
+    function update() {
+        moving = true
+        var delta = (pos - target.scrollTop) / smooth
+        target.scrollTop += delta
+        if (Math.abs(delta) > 0.5) requestFrame(update)
+        else moving = false
+    }
+    var requestFrame = function() {
+        return (window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(func) {window.setTimeout(func, 1000 / 50)})
+    }();
+}
 
