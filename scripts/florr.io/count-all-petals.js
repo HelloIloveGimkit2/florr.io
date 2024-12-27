@@ -3,7 +3,7 @@
 (async () => {
 
 	const currentVersionHash = (await (await fetch("https://florr.io")).text()).match(/const\sversionHash\s=\s"(.*)";/)[1];
-	if (currentVersionHash !== "3fa83d54eead6c82cbdb82a7c5d15ae3adbe6068") {
+	if (currentVersionHash !== "2bde17fce5778bfa0aedc3e8325a4207afa8eca1") {
 		console.error("You seem to be running the script for an outdated client. Run the latest script.");
 		return;
 	}
@@ -25,10 +25,10 @@
 	const rarityNames = ["Common", "Unusual", "Rare", "Epic", "Legendary", "Mythic", "Ultra", "Super", "Unique"];
 	const kMaxRarities = rarityNames.length;
 
-	const kMaxPetals = 89;
+	const kMaxPetals = 92;
 
-	const petalInventoryBaseAddress = 2022752;
-	const petalDefinitionNameBaseAddress = 1941528;
+	const petalInventoryBaseAddress = 3107840;
+	const petalDefinitionNameBaseAddress = 1984664;
 
 	const petals = {};
 	const totals = {};
