@@ -1,0 +1,404 @@
+[
+	{
+		"index": 1,
+		"name": "Rock",
+		"description": "A rock. It doesn't do much.",
+		"overriddenSpawnMessage": "Something mountain-like appears in the distance..."
+	},
+	{
+		"index": 2,
+		"name": "Cactus",
+		"description": "Avoid touching it, it hurts.",
+		"overriddenSpawnMessage": "A tower of thorns rises from the sands..."
+	},
+	{
+		"index": 3,
+		"name": "Ladybug",
+		"description": "Cute and harmless.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 4,
+		"name": "Bee",
+		"description": "It stings. Don't touch it.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 5,
+		"name": "Baby Ant",
+		"description": "Weak and defenseless, but big dreams.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 6,
+		"name": "Worker Ant",
+		"description": "It's a bit temperamental, probably from working all the time.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 7,
+		"name": "Soldier Ant",
+		"description": "It's got wings and it's ready to use them.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 8,
+		"name": "Queen Ant",
+		"description": "You must have done something really bad if she's chasing you.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 9,
+		"name": "Ant Hole",
+		"description": "Ants go in, and come out. Can't explain that.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 10,
+		"name": "Beetle",
+		"description": "It's hungry and flowers are its favorite meal.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 11,
+		"name": "Hornet",
+		"description": "These aren't quite as nice as the little bees.",
+		"overriddenSpawnMessage": "A big yellow spot shows up in the distance..."
+	},
+	{
+		"index": 12,
+		"name": "Centipede",
+		"description": "It's just there doing its thing.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 13,
+		"name": "Centipede",
+		"description": "It's just there doing its thing.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 14,
+		"name": "Centipede",
+		"description": "This one loves flowers.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 15,
+		"name": "Centipede",
+		"description": "This one loves flowers.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 16,
+		"name": "Centipede",
+		"description": "Gotta go fast.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 17,
+		"name": "Centipede",
+		"description": "Gotta go fast.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 18,
+		"name": "Square",
+		"description": "This shape... it looks familiar...",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 19,
+		"name": "Ladybug",
+		"description": "Cute and harmless... if left unprovoked.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 20,
+		"name": "Ladybug",
+		"description": "Shiny, cute and mostly harmless.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 21,
+		"name": "Spider",
+		"description": "Spooky.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 22,
+		"name": "Scorpion",
+		"description": "IT STINGS!",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 23,
+		"name": "Soldier Fire Ant",
+		"description": "This ant is on fireeeeeeeeeeeeee.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 24,
+		"name": "Fire Ant Burrow",
+		"description": "What could be in here?",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 25,
+		"name": "Sandstorm",
+		"description": "Darude (1999)",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 26,
+		"name": "Bubble",
+		"description": "Pop",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 27,
+		"name": "Bumble Bee",
+		"description": "GOTTA RUN.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 28,
+		"name": "Shell",
+		"description": "Not an advertisement.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 29,
+		"name": "Starfish",
+		"description": "His name is Patrick.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 30,
+		"name": "Crab",
+		"description": "Mr. Crab.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 31,
+		"name": "Jellyfish",
+		"description": "Makes the most delicious jam.",
+		"overriddenSpawnMessage": "You hear lightning strikes coming from a far distance..."
+	},
+	{
+		"index": 32,
+		"name": "Digger",
+		"description": "Wrong game, bud.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 33,
+		"name": "Sponge",
+		"description": "Bob.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 34,
+		"name": "Leech",
+		"description": "Slurp slurp.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 35,
+		"name": "Leech",
+		"description": "Slurp slurp.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 36,
+		"name": "Dandelion",
+		"description": "Puffy.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 37,
+		"name": "Baby Fire Ant",
+		"description": "This ant is on fireeeeeeeeeeeeee.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 38,
+		"name": "Worker Fire Ant",
+		"description": "This ant is on fireeeeeeeeeeeeee.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 39,
+		"name": "Queen Fire Ant",
+		"description": "This ant is on fireeeeeeeeeeeeee.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 40,
+		"name": "Ant Egg",
+		"description": "Not yet an ant but perhaps soon.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 41,
+		"name": "Fire Ant Egg",
+		"description": "This ant is not yet on fire.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 42,
+		"name": "Fly",
+		"description": "Hzzzzzzzzzzzz.",
+		"overriddenSpawnMessage": "A buzzing noise echoes through the sewer tunnels"
+	},
+	{
+		"index": 43,
+		"name": "Leafbug",
+		"description": "It's not a leaf, but it is a bug.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 44,
+		"name": "Mantis",
+		"description": "You better pray you don't become dinner.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 45,
+		"name": "Baby Termite",
+		"description": "Weak and defenseless, but big dreams.<n/>These creatures appear to be connected somehow.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 46,
+		"name": "Worker Termite",
+		"description": "It's a bit temperamental, probably from working all the time.<n/>These creatures appear to be connected somehow.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 47,
+		"name": "Soldier Termite",
+		"description": "It's got wings and it's ready to use them.<n/>These creatures appear to be connected somehow.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 48,
+		"name": "Termite Overmind",
+		"description": "The one who oversees all.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 49,
+		"name": "Termite Mound",
+		"description": "Termites go in, and come out. Can't explain that.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 50,
+		"name": "Termite Egg",
+		"description": "Not yet a termite but perhaps soon.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 51,
+		"name": "Bush",
+		"description": "Don't misunderestimate me.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 52,
+		"name": "Roach",
+		"description": "Gotta go FAST... until they get tired.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 53,
+		"name": "Moth",
+		"description": "Easily scared, be nice.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 54,
+		"name": "Firefly",
+		"description": "Oooooh shiny.",
+		"overriddenSpawnMessage": "There's a bright light in the horizon..."
+	},
+	{
+		"index": 55,
+		"name": "Beetle",
+		"description": "Scourge that spawns in the other plane.",
+		"overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+	},
+	{
+		"index": 56,
+		"name": "Wasp",
+		"description": "They are ANGRY.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 57,
+		"name": "Target Dummy",
+		"description": "How do you have this in your gallery?",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 58,
+		"name": "Spider",
+		"description": "Scourge that spawns in the other plane.",
+		"overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+	},
+	{
+		"index": 59,
+		"name": "Centipede",
+		"description": "Scourge that spawns in the other plane.",
+		"overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+	},
+	{
+		"index": 60,
+		"name": "Centipede",
+		"description": "Scourge that spawns in the other plane.",
+		"overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+	},
+	{
+		"index": 61,
+		"name": "Wasp",
+		"description": "Scourge that spawns in the other plane.",
+		"overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+	},
+	{
+		"index": 62,
+		"name": "Trader",
+		"description": "",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 63,
+		"name": "Gambler",
+		"description": "This can happen to YOU.",
+		"overriddenSpawnMessage": "You hear someone whisper faintly... \"just... one more game...\""
+	},
+	{
+		"index": 64,
+		"name": "Oracle",
+		"description": "",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 65,
+		"name": "Firefly",
+		"description": "There's something magical about this one.",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 66,
+		"name": "Titan",
+		"description": "",
+		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 67,
+		"name": "Beetle",
+		"description": "This one has a golden coat... what does that mean?",
+		"overriddenSpawnMessage": null
+	}
+]
