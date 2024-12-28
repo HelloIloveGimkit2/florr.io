@@ -7,14 +7,14 @@
 (async () => {
 
 	const currentVersionHash = (await (await fetch("https://florr.io")).text()).match(/const\sversionHash\s=\s"(.*)";/)[1];
-	if (currentVersionHash !== "2bde17fce5778bfa0aedc3e8325a4207afa8eca1") {
+	if (currentVersionHash !== "5a6faeca19b04d7da1b2090e7700da12c51c4689") {
 		console.error("Versionhash error. (Tell this to kit2d2 on discord)");
 		return;
 	}
 
 	const kMaxRarities = 9;
 	const kMaxPetals = 92;
-	const petalInventoryBaseAddress = 3107840;
+	const petalInventoryBaseAddress = 17943344;
 
 	for (let petalIndex = 1; petalIndex <= kMaxPetals; petalIndex++) {
 		for (let rarityIndex = 0; rarityIndex < kMaxRarities; rarityIndex++) {
