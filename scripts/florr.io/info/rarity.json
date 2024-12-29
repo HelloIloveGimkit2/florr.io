@@ -1,0 +1,47 @@
+[
+	{
+		"index": 0,
+		"name": "Common",
+		"color": 8318829
+	},
+	{
+		"index": 1,
+		"name": "Unusual",
+		"color": 16770653
+	},
+	{
+		"index": 2,
+		"name": "Rare",
+		"color": 5067491
+	},
+	{
+		"index": 3,
+		"name": "Epic",
+		"color": 8789982
+	},
+	{
+		"index": 4,
+		"name": "Legendary",
+		"color": 14556959
+	},
+	{
+		"index": 5,
+		"name": "Mythic",
+		"color": 2087902
+	},
+	{
+		"index": 6,
+		"name": "Ultra",
+		"color": 16722805
+	},
+	{
+		"index": 7,
+		"name": "Super",
+		"color": 2883491
+	},
+	{
+		"index": 8,
+		"name": "Unique",
+		"color": 5592405
+	}
+]
