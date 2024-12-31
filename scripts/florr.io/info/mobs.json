@@ -400,5 +400,11 @@
 		"name": "Beetle",
 		"description": "This one has a golden coat... what does that mean?",
 		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 68,
+		"name": "Worm",
+		"description": "It's supposed to eat dirt but this one's eating flowers.",
+		"overriddenSpawnMessage": null
 	}
 ]
