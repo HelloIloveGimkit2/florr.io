@@ -406,5 +406,11 @@
 		"name": "Worm",
 		"description": "It's supposed to eat dirt but this one's eating flowers.",
 		"overriddenSpawnMessage": null
+	},
+	{
+		"index": 69,
+		"name": "Worm guts",
+		"description": "You're not supposed to see this text. I'm calling the police.",
+		"overriddenSpawnMessage": null
 	}
 ]
