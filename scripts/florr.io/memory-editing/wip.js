@@ -1,3 +1,5 @@
+// WOrk in progress, I only used for thumbnail not very user friendly atm
+
 (async () => {
 
 	const currentVersionHash = (await (await fetch("https://florr.io")).text()).match(/const\sversionHash\s=\s"(.*)";/)[1];
@@ -5,15 +7,6 @@
 	const kMaxMOBs = 69;
 	const mobGalleryBaseAddress = 18569716;
 	const allowedMobs = [
-        63, // Gambler
-		67, // Nazar Beetle
-		65, // Magic Firefly
-		18, // Square
-		68, // Worm
-		20, // Yellow Ladybug
-        57, // Dummy
-        32, // Digger
-        27 // Bumble beeeeeeee
 	];
 
 	for (let mobIndex = 1; mobIndex <= kMaxMOBs; mobIndex++) {
