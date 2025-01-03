@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+_This article is only for contributers_
 
 # Translate your site
 

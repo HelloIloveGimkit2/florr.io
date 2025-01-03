@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Intro
 
-Welcome to the official documentation for <a href="https://github.com/cat2d2/io" target="_blank" onclick="window.open(this.href, '_blank'); return false;">`cat2d2/io`</a>
+Welcome to the official documentation for <a href="https://github.com/cat2d2/io" target="_blank" onClick="window.open(this.href, '_blank'); return false;">`cat2d2/io`</a>
 
 ## Getting Started
 

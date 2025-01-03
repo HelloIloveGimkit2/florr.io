@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+_This article is only for contributers_
+
 # Manage Docs Versions
 
 Docusaurus can manage multiple versions of your docs.

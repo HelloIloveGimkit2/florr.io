@@ -7,7 +7,7 @@
 (async () => {
 	const kMaxRarities = 9;
 	const kMaxPetals = 92;
-	const petalInventoryBaseAddress = 0x002A087C;
+	const petalInventoryBaseAddress = 0x01014CA4;
 	for (let petalIndex = 1; petalIndex <= kMaxPetals; petalIndex++) {
 		for (let rarityIndex = 0; rarityIndex < kMaxRarities; rarityIndex++) {
 			const offset = ((petalIndex * kMaxRarities + rarityIndex) << 2);

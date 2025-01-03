@@ -1,4 +1,3 @@
-
 <br><h1 style="margin: 0; padding: 0; transform: rotate(-10deg); display: inline-block;">
   Welcome to <code>cat2d2/io</code> <img src="static/images/diep.png" class="tilt-hover">,
 </h1>

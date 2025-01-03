@@ -20,8 +20,9 @@
 
 	const kMaxPetals = 92;
 
-	const petalInventoryBaseAddress = 0x002A087C;
-	const petalDefinitionNameBaseAddress = 0x00252EC8;
+	const petalInventoryBaseAddress = 0x01014CA4;
+	const petalDefinitionNameBaseAddress = 0x00252E88;
+
 
 	const petals = {};
 	const totals = {};
