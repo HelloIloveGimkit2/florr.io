@@ -10,8 +10,8 @@
 
 	for (let rowIndex = 0; rowIndex < kMaxMOBs; rowIndex++) {
 		let flags = 0;
-		for (let columnIndex = 5; columnIndex < kMaxRaritiesOnGallery; columnIndex++) {
-			flags |= (2 << columnIndex);
+		for (let columnIndex = 0; columnIndex < kMaxRaritiesOnGallery; columnIndex++) {
+			flags |= (1 << columnIndex);
 		}
 		Module.HEAPU8[(mobGalleryBaseAddress + rowIndex) >> 0] = flags;
 	}
