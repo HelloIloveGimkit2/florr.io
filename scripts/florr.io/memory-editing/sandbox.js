@@ -5,24 +5,14 @@
 // - Don't forget that we do NOT have any responsibility for any damage to you caused by the script.
 
 (async () => {
-
-	const currentVersionHash = (await (await fetch("https://florr.io")).text()).match(/const\sversionHash\s=\s"(.*)";/)[1];
-	/* if (currentVersionHash !== "029d0683eb6e9bc867a31dd1797b48eadbe3a768") {
-		console.error("Versionhash error. (Tell this to kit2d2 on discord)");
-		return;
-	} */
-
 	const kMaxRarities = 9;
 	const kMaxPetals = 92;
-	const petalInventoryBaseAddress = 18569788;
-
+	const petalInventoryBaseAddress = 0x002A087C;
 	for (let petalIndex = 1; petalIndex <= kMaxPetals; petalIndex++) {
 		for (let rarityIndex = 0; rarityIndex < kMaxRarities; rarityIndex++) {
 			const offset = ((petalIndex * kMaxRarities + rarityIndex) << 2);
 			Module.HEAPU32[(petalInventoryBaseAddress + offset) >> 2] = 1;
 		}
 	}
-
 	console.log("success!");
-
 })();

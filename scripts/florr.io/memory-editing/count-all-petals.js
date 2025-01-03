@@ -1,9 +1,6 @@
 // Counts all the petals you have so you can feel like a sigma
 // ty to k2niqr
 (async () => {
-
-	const currentVersionHash = (await (await fetch("https://florr.io")).text()).match(/const\sversionHash\s=\s"(.*)";/)[1];
-
 	const textDecoder = new TextDecoder();
 	function readStringInDataSection(address) {
 		let startAt = address;
@@ -23,8 +20,8 @@
 
 	const kMaxPetals = 92;
 
-	const petalInventoryBaseAddress = 18569788;
-	const petalDefinitionNameBaseAddress = 18569788;
+	const petalInventoryBaseAddress = 0x002A087C;
+	const petalDefinitionNameBaseAddress = 0x00252EC8;
 
 	const petals = {};
 	const totals = {};
