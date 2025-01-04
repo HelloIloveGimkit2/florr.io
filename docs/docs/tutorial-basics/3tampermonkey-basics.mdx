@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 import ReactPlayer from 'react-player'
-import MyVideoUrl from './static/tamper.png';
+import MyVideoUrl from './static/tamper.mp4';
 import MyThumbnailUrl from './static/tamper.png';
 
 # Tampermonkey Basics
@@ -11,11 +11,12 @@ import MyThumbnailUrl from './static/tamper.png';
 
 ## Making a new script
 <ReactPlayer playing="true" controls url={MyVideoUrl} light={<img src={MyThumbnailUrl} alt='Thumbnail' />}/>
-(Video not pushed yet since im on hotspot lmao)
 
-## Breaking it down
+## Breaking down the Userscript tag
+The video you just watched was how to make a new TamperMonkey script and get it running. I skipped over the userscript tag since we will go over it here.
 
-Let's break this down starting with `@match`:
+### `@match`
+Let's break the userscript tag down starting with `@match`:
 ![@match](static/@match.png) 
 When we create a new script on our desired webpage, [**TamperMonkey**](https://tampermonkey.net) automatically matches it. The `@match` tag tells our userscript manager which webpage to run on. If we want our script to run on every webpage, we can use a few different methods. The one I like to use takes advantage of `@include`, like so:
 ```
@@ -24,11 +25,127 @@ When we create a new script on our desired webpage, [**TamperMonkey**](https://t
 ```
 This makes the script include every webpage that is `http` or `https` (Practically every internet site). 
 
-However, it doesn't make the script run on local pages. A good example for beginners is a new tab. When you press `ctrl` + `t` in a browser like Chrome, it actually goes to `chrome://newtab`. You just don't realize is since it renders as blank. This is a local page since it can be accessed offline. If you go to the advanced tutorial later on, you'll see a much better example: `localhost:xxxx`. 
+However, it doesn't make the script run on local pages. A good example of a local page for beginners is a new tab. When you press `ctrl` + `t` in a browser like Chrome, it actually goes to `chrome://newtab`. You just don't realize is since it renders as blank. This is a local page since it can be accessed offline. If you go to the advanced tutorial later on, you'll see a much better example: `localhost:xxxx`. 
 If we want our script to run really **EVERY** webpage, we can put
 ```
 @match *://*/*
 ```
+A more detailed version of `@match` is shown below:
+```
+// @match <protocol>://<domain><path>
+```
+You can find an *even* more detailed description [**here**](https://developer.chrome.com/docs/extensions/mv2/match-patterns) if that still isn't good enough.
 
 In some older versions of TamperMonkey, there was a bug where `@match *` would also work, however for obvious reasons we won't rely on a bug in this tutorial.
 
+### `@require`
+`@require` makes your life a lot easier. When developing a project you probably install things from a library, since making them from scratch is very hard. The games on [`cat2d2/io`](https://github.com/cat2d2/io) all have a `node_modules` directory. This website uses Node Modules! But if you want to use somebody elses code in your script without pasting it, you can just tell `@require` what you want. For example:
+```
+@require      https://unpkg.com/string-similarity@4.0.4/umd/string-similarity.min.js
+```
+
+This requires the `string-similarity` package, which measures how similiar two strings are. The `min.js` ending indicates that it is minified, or compressed for faster page loading times.
+You can import whatever packages you want, and you can use this tag as many times as you want.
+
+### `@grant`
+
+`@grant` is used to whitelist `GM_*` and `GM.*` functions, the unsafeWindow object and some powerful window functions.
+```
+// @grant GM_setClipboard
+// @grant unsafeWindow
+```
+
+### `unsafeWindow`
+<details>
+  <summary>`unsafeWindow` | A deep dive</summary>
+
+Let's take a look at `unsafeWindow`. This tag allows Tampermonkey to add custom properties set by the web page. 
+
+Let's take a look at this quote.
+> _"`unsafeWindow` bypasses the Greasemonkey XPCNativeWrapper-based Security model, which exists to make sure that **malicious** web pages cannot alter objects in such a way as to make greasemonkey scripts (which execute with more privileges than ordinary JavaScript running in a web page) do things that their authors or users did not intend."_ -mmartz, [**Sourceforge.net**](https://sourceforge.net/p/greasemonkey/wiki/unsafeWindow/#:~:text=unsafeWindow%20bypasses%20the%20Greasemonkey%20XPCNativeWrapper,that%20their%20authors%20or%20users)
+
+**Woah.**
+
+That's confusing. Let's break it down step by step.
+
+#### Greasemonkey and Tampermonkey
+As you already know, Greasemonkey and Tampermonkey are:
+- **Browser Extensions**: Allow users to run custom scripts (userscripts) on web pages.
+- **Userscripts**: Modify the behavior and appearance of web pages.
+
+#### Security Model
+
+- **XPCNativeWrapper**: Isolates userscripts from the web page's JavaScript to prevent unintended interactions.
+
+#### `unsafeWindow`
+
+- **Bypass Security**: Allows direct access to the web page's JavaScript objects and functions.
+- **Risks**: Exposes userscripts to potential manipulation by malicious web pages.
+- **Use Cases**: Necessary for certain tasks like calling web page functions or accessing specific properties.
+
+#### How you should use it
+
+- **Sparing Use**: Use `unsafeWindow` only when absolutely necessary.
+- **Trusted Sites**: Ensure the web page is trusted.
+- **Alternatives**: Consider other approaches that do not require bypassing the security model.
+
+:::danger
+_`unsafeWindow` can also break scripts when used, so you should determine whether or not you need it before you begin coding._
+:::
+
+#### Example
+
+```JS
+// Here we have our userscript
+(function() {
+    'use strict';
+    // Now we access a function defined by the webpage
+    if (typeof unsafeWindow.someFunction === 'function') {
+        unsafeWindow.someFunction();
+    }
+
+    // and access a property set by the page
+    if (unsafeWindow.someProperty) {
+        console.log(unsafeWindow.someProperty);
+    }
+})();
+```
+In this example our script checks if `someFunction` and `someProperty` exist on the site.
+Then it calls `someFunction` and logs `someProperty` using `unsafeWindow`.
+
+That's it! That wasn't so bad was it? Okay, maybe it was a little confusing. However, don't worry since for this beginner tutorial we **won't** use `unsafeWindow` 😅
+</details>
+
+## Userscript Headers
+These are some of the biggest userscript tags that aren't rudimentary, such as `@description`.
+
+You can find a full list of headers and API's [**here**](https://www.tampermonkey.net/documentation.php).
+
+TamperMonkey will automatically create a userscript section for you on a script creation.
+
+<details>
+
+    <summary>The default script</summary>
+```JS
+// ==UserScript==
+// @name         Name
+// @namespace    Namespace
+// @version      Version
+// @description  Description
+// @author       Author
+// @match        Site
+// @icon         Icon
+// @grant        Grant
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Your code here...
+})();
+```
+Every header besides `@match` or `@include` is optional. (You need to choose between one).
+Enclose headers in the `==UserScript` and `==/UserScript==` tags.
+</details>
+
+Now you know some key foundational concepts for scripting! Time to start programming :)

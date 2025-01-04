@@ -13,7 +13,7 @@ Welcome to the official documentation for <a href="https://github.com/cat2d2/io"
 - [Tampermonkey](https://tampermonkey.net) 
   - Install it based off your browser. Version 82+ recommended
 
-- A userscript of your choice. You can find them in <a href="https://github.com/cat2d2/io" target="_blank" onclick="window.open(this.href, '_blank'); return false;">`cat2d2/io`</a>
+- A userscript of your choice. You can find them in <a href="https://github.com/cat2d2/io" target="_blank" >`cat2d2/io`</a>
 
 ## Create a new script
 
