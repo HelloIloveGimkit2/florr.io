@@ -5,8 +5,8 @@
 (async () => {
 	const kMaxRaritiesOnGallery = 8;
 	const kMaxMOBs = 69;
-	const mobGalleryBaseAddress = 0x002E6F85;
-	const mobGalleryRenderingBaseAddress = 0x010D7A74;
+	const mobGalleryBaseAddress = 0x0034F9C5;
+	const mobGalleryRenderingBaseAddress = 0x00316AE8;
 	for (let rowIndex = 0; rowIndex < kMaxMOBs; rowIndex++) {
 		let flags = 0;
 		for (let columnIndex = 0; columnIndex < kMaxRaritiesOnGallery; columnIndex++) {
