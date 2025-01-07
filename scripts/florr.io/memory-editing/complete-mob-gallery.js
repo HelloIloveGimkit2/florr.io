@@ -1,7 +1,7 @@
 (async () => {
 	const kMaxRaritiesOnGallery = 8;
 	const kMaxMOBs = 69;
-	const mobGalleryBaseAddress = 0x0034F9C5;
+	const mobGalleryBaseAddress = 0x0042A8D5;
 
 	for (let mobIndex = 1; mobIndex <= kMaxMOBs; mobIndex++) {
 		let flags = 0;

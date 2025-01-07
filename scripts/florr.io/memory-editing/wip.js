@@ -1,4 +1,4 @@
-// WOrk in progress, I only used for thumbnail not very user friendly atm
+// WOrk in progress, I only used for a video thumbnail not very user friendly atm
 
 (async () => {
 
