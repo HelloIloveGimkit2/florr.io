@@ -19,8 +19,8 @@
 	const kMaxRarities = rarityNames.length;
 
 	const kMaxPetals = 92;
-	const petalInventoryBaseAddress = 0x0042A91C;
-	const petalDefinitionNameBaseAddress = 0x00263768;
+	const petalInventoryBaseAddress = 0x003A3584;
+	const petalDefinitionNameBaseAddress = 0x002637D8;
 
 
 
