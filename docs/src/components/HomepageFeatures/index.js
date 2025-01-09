@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        It's the only one of it's kind, and it's mantained <b>CONSANTLY</b>, so consider giving us a <a href="https://github.com/cat2d2/florr.io" target="_blank">star</a>.
+        It's the only one of it's kind, and it's mantained <b>CONSANTLY</b>, so consider giving us a <a href="https://github.com/cat2d2/io" target="_blank">star</a>.
       </>
     ),
   },

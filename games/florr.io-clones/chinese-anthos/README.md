@@ -12,7 +12,7 @@ If you don't have the prerequisites, do this:
 <br><small>To star a repository, look for the `⭐Star` icon near the top-right of your screen. </small>
 3. After you have starred the repository, click the + symbol.
 4. Navigate to "Create a new Codespace".
-5. Type in `cat2d2/florr.io` as the repository.
+5. Type in `cat2d2/io` as the repository.
 
 ### Then follow the steps below!
 

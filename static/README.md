@@ -5,5 +5,5 @@ You can view the template [here](https://github.com/flexdinesh/dev-landing-page)
 
 You can also clone this repo
 ```bash
-git clone https://github.com/cat2d2/florr.io.git
+git clone https://github.com/cat2d2/io.git
 ```

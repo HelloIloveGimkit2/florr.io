@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Customizer (Text & Color Changer)
 // @version      2.1.2
-// @description  https://github.com/cat2d2/florr.io
+// @description  https://github.com/cat2d2/io
 // @match        https://florr.io/*
 // @license      MIT
 // @grant        GM_addStyle

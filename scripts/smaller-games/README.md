@@ -30,5 +30,5 @@ All scripts are credited if not made by me
 <br> (A lot are made by me though)
 <br> If you don't find your game in the `scripts` directory 
 <br> or the `scripts/smaller-games` directory I might have not
-<br> added it yet. Make a [new issue](https://github.com/cat2d2/florr.io/issues/new) and I'll see what I can do :)
+<br> added it yet. Make a [new issue](https://github.com/cat2d2/io/issues/new) and I'll see what I can do :)
 

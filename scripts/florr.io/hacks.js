@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 /*
-https://github.com/cat2d2/florr.io
+https://github.com/cat2d2/io
 ⚠️ Best paired with ui.js (warning emoji just to catch your attention, script will work without)
 */
 
