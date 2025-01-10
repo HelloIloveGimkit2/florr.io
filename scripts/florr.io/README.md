@@ -15,4 +15,8 @@
 ### Tutorials how to operate:
 - Tracers, autogrind, autorespawn, all things in hacks.js can be changed to true or false. (1 or 0)
 - To operate shaders, press `+`. (Make sure to hold down shift)
-- For the sandbox script, you open dev tools, navigate to your console, and paste the script. If a warning appears, type `allow pasting` before hitting enter. To navigate to your console if you're [...]
+
+
+- For anything in the `memory-editing` directory, execute in console.
+#### Beginner tutorial:
+Go to the 3 little dots on the top-right of your screen. Open dev tools, navigate to your console, and paste the script. If a warning appears and nothing is pasted, type `allow pasting` before hitting enter. If nothing happens, some values may be outdated.
