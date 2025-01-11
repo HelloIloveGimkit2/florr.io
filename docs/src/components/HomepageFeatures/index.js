@@ -2,6 +2,9 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+window.onload = function(){ // window.addEventListener('load',function(){...}); (for Netscape) and window.attachEvent('onload',function(){...}); (for IE and Opera) also work
+    alert('⚠️IMPORTANT⚠️: The GitHub repository is currently taken down. I am working with GitHub on the issues arising, however it could be several days or weeks until it appears again. In the meantime, join the Discord (discord.gg/m4DefhCemY) for more info :) I am currently working on creating a custom filesystem so you can view the code in this website.');
+}
 const FeatureList = [
   {
     title: 'Easy to Use Scripts',
