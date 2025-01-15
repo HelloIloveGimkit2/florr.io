@@ -1,0 +1,277 @@
+{id: 1, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}}
+1
+: 
+{id: 2, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+2
+: 
+{id: 3, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+3
+: 
+{id: 4, isStackable: true, magicPetal: false, isPassive: false, allowedDropRarities: Array(9), …}
+4
+: 
+{id: 5, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+5
+: 
+{id: 6, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+6
+: 
+{id: 7, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+7
+: 
+{id: 8, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+8
+: 
+{id: 9, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+9
+: 
+{id: 10, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+10
+: 
+{id: 11, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+11
+: 
+{id: 12, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+12
+: 
+{id: 13, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+13
+: 
+{id: 14, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+14
+: 
+{id: 15, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+15
+: 
+{id: 16, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+16
+: 
+{id: 17, isStackable: false, magicPetal: false, isPassive: true, i18n: {…}, …}
+17
+: 
+{id: 18, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+18
+: 
+{id: 19, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+19
+: 
+{id: 20, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+20
+: 
+{id: 21, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+21
+: 
+{id: 22, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+22
+: 
+{id: 23, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+23
+: 
+{id: 24, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+24
+: 
+{id: 25, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+25
+: 
+{id: 26, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+26
+: 
+{id: 27, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+27
+: 
+{id: 28, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+28
+: 
+{id: 29, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+29
+: 
+{id: 30, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+30
+: 
+{id: 31, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+31
+: 
+{id: 32, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+32
+: 
+{id: 33, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+33
+: 
+{id: 34, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+34
+: 
+{id: 35, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+35
+: 
+{id: 36, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+36
+: 
+{id: 37, isStackable: false, magicPetal: false, isPassive: true, i18n: {…}, …}
+37
+: 
+{id: 38, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+38
+: 
+{id: 39, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+39
+: 
+{id: 40, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+40
+: 
+{id: 41, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+41
+: 
+{id: 42, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+42
+: 
+{id: 43, isStackable: false, magicPetal: false, isPassive: true, i18n: {…}, …}
+43
+: 
+{id: 44, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+44
+: 
+{id: 45, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+45
+: 
+{id: 46, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+46
+: 
+{id: 47, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+47
+: 
+{id: 48, isStackable: false, magicPetal: false, isPassive: true, i18n: {…}, …}
+48
+: 
+{id: 49, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+49
+: 
+{id: 50, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+50
+: 
+{id: 51, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+51
+: 
+{id: 52, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+52
+: 
+{id: 53, isStackable: false, magicPetal: false, isPassive: true, i18n: {…}, …}
+53
+: 
+{id: 54, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+54
+: 
+{id: 55, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+55
+: 
+{id: 56, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+56
+: 
+{id: 57, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+57
+: 
+{id: 58, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+58
+: 
+{id: 59, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+59
+: 
+{id: 60, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+60
+: 
+{id: 61, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+61
+: 
+{id: 62, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+62
+: 
+{id: 63, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+63
+: 
+{id: 64, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+64
+: 
+{id: 65, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+65
+: 
+{id: 66, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+66
+: 
+{id: 67, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+67
+: 
+{id: 68, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+68
+: 
+{id: 69, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+69
+: 
+{id: 70, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+70
+: 
+{id: 71, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+71
+: 
+{id: 72, isStackable: false, magicPetal: false, isPassive: true, i18n: {…}, …}
+72
+: 
+{id: 73, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+73
+: 
+{id: 74, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}}
+74
+: 
+{id: 75, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}}
+75
+: 
+{id: 76, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+76
+: 
+{id: 77, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+77
+: 
+{id: 78, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+78
+: 
+{id: 79, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+79
+: 
+{id: 80, isStackable: true, magicPetal: false, isPassive: true, i18n: {…}, …}
+80
+: 
+{id: 81, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+81
+: 
+{id: 82, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+82
+: 
+{id: 83, isStackable: false, magicPetal: true, isPassive: false, i18n: {…}, …}
+83
+: 
+{id: 84, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+84
+: 
+{id: 85, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+85
+: 
+{id: 86, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+86
+: 
+{id: 87, isStackable: false, magicPetal: true, isPassive: true, i18n: {…}, …}
+87
+: 
+{id: 88, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+88
+: 
+{id: 89, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+89
+: 
+{id: 90, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
+90
+: 
+{id: 91, isStackable: true, magicPetal: true, isPassive: false, i18n: {…}, …}
+91
+: 
+{id: 92, isStackable: false, magicPetal: false, isPassive: false, i18n: {…}, …}
+92
+: 
+{id: 93, isStackable: true, magicPetal: false, isPassive: false, i18n: {…}, …}
